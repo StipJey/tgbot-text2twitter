@@ -1,10 +1,10 @@
 {
-  "name": "telegram-bot-starter",
+  "name": "tgbot-text2twitter",
   "version": "1.0.0",
-  "description": "Telegram bot starter based on grammY",
+  "description": "Telegram Bot for splitting texts into tweets",
   "main": "dist/app.js",
-  "repository": "https://github.com/Borodutch/telegram-bot-template",
-  "author": "backmeupplz <backmeupplz@gmail.com>",
+  "repository": "https://github.com/StipJey/tgbot-text2twitter",
+  "author": "StipJey <StipJey@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {

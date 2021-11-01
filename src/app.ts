@@ -14,6 +14,7 @@ import configureI18n from '@/middlewares/configureI18n'
 import i18n from '@/helpers/i18n'
 import ignoreOldMessageUpdates from '@/middlewares/ignoreOldMessageUpdates'
 import sendHelp from '@/handlers/sendHelp'
+import sendMessage from './handlers/message'
 import sequentialize from '@/middlewares/sequentialize'
 import startMongo from '@/helpers/startMongo'
 
@@ -31,6 +32,7 @@ async function runApp() {
   // Commands
   bot.command(['help', 'start'], sendHelp)
   bot.command('language', sendLanguage)
+  bot.on('message', sendMessage)
   // Actions
   bot.callbackQuery(localeActions, setLanguage)
   // Errors
