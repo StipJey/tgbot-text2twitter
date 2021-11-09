@@ -1,6 +1,6 @@
 name: Turkish
 help: |
-  <b>Bot</b> nasıl Telegraf botları yapacağınızı görmenizi sağlıyor.
+  Bot, gönderilen metinleri 280 karakterden daha küçük parçalara böler. Bedava
 language: Lütfen, dili seçin.
 language_selected: <b>Bot</b> Türkçe konuşuyor.
 cannot_cut: ⚠️ Aşağıdaki cümle 280 karakterden uzun ve tweetlenemedi ⚠️

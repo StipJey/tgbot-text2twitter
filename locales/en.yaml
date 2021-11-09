@@ -1,6 +1,6 @@
 name: English
 help: |
-  <b>This bot</b> allows you to see how Telegram bots can be built.
+  The bot divides the sent texts into parts less than 280 characters in size. Is free
 language: Please, select the language.
 language_selected: <b>This bot</b> now speaks English.
 cannot_cut: ⚠️ The following sentence is longer than 280 characters and could not be tweeted ⚠️
